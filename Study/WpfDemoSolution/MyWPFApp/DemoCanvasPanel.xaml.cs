@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfDemo1
+namespace MyWPFApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DemoCanvasPanel.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
+    public partial class DemoCanvasPanel : Window {
+        public DemoCanvasPanel()
         {
             InitializeComponent();
         }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
+        private void btnDisplay_Click(object sender, RoutedEventArgs e)
         {
-            TextBox1.Text = "hihi do ngok";
+            string CarInfo = $"Car Name:{txtCarName.Text}\n" +
+                $"Color:{txtColor.Text} \nBrand:{txtBrand.Text}";
+            MessageBox.Show(CarInfo, "Car Details");
         }
-
-        
     }
 }

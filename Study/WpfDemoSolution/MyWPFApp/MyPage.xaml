@@ -1,0 +1,12 @@
+﻿ <Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"     
+      x:Class="MyWPFApp.MyPage"        
+      WindowTitle="My Page" Width="539" Height="263" >
+    <Grid>
+        <TextBox Name="TextBox1" Margin="62,62,62,162" Text="Hello World" />
+        <Button Name="Button1" Width="100" Height="50" Margin="220,131,219,82" >
+            Click here
+        </Button>
+    </Grid>
+ </Page>

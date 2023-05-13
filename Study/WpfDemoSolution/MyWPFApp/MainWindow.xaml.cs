@@ -13,8 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfDemo1
+namespace MyWPFApp
 {
+
+ 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -25,11 +27,9 @@ namespace WpfDemo1
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            TextBox1.Text = "hihi do ngok";
+            App.Current.Shutdown();
         }
-
-        
     }
 }

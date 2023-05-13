@@ -1,0 +1,22 @@
+﻿<Window x:Class="MyWPFApp.DemoWrapPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWPFApp"
+        mc:Ignorable="d"
+        Title="DemoWrapPanel" Height="284" Width="323">
+    <Grid>
+        <WrapPanel Background="LightBlue"  Orientation ="Vertical">
+            <Label Name="lblInstruction" 
+           Width="328" Height="27" FontSize="15" Content="Enter Car Information"/>
+            <Label Name="lblCarName" Content="Car Name"/>
+            <TextBox Name="txtCarName" Width="193" Height="25"/>           
+            <Label Name="lblColor" Content="Color"/>
+            <TextBox Name="txtColor" Width="193" Height="25"/>
+            <Label Name="lblBrand" Content="Brand"/>
+            <TextBox Name="txtBrand" Width="193" Height="25"/>
+            <Button Name="btnDisplay" Width="80" Margin="0,10,0,0" Content="Display"/>
+        </WrapPanel>
+    </Grid>
+</Window>

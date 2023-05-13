@@ -1,0 +1,9 @@
+﻿<Application x:Class="DemoDataGrid.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DemoWPFControls"
+             StartupUri="DemoComboBox.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfDemo1
+namespace MyWPFApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for winTest.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MyWin : Window
     {
-        public MainWindow()
+        public MyWin()
         {
             InitializeComponent();
         }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-            TextBox1.Text = "hihi do ngok";
-        }
-
-        
     }
 }

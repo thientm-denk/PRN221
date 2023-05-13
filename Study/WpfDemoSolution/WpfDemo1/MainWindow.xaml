@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:WpfDemo1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="Blue"></Setter>
+            <Setter Property="Foreground" Value="Red"></Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Center" Margin="0,116,0,0" TextWrapping="Wrap" Text="Hello Word" VerticalAlignment="Top" Width="357" Height="52"/>
+        <Button x:Name="Button1" Content="Click Here" HorizontalAlignment="Left" Margin="494,188,0,0" VerticalAlignment="Top" Width="84" Height="49" RenderTransformOrigin="0.5,0.5" Background="#FF79F8D7" Foreground="#FFFF009F" Click="Button1_Click"></Button>
+        
     </Grid>
 </Window>

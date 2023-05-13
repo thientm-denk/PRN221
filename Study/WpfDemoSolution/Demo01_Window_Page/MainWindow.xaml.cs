@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfDemo1
+namespace Demo01_Window_Page
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,11 +25,17 @@ namespace WpfDemo1
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-            TextBox1.Text = "hihi do ngok";
-        }
-
         
+
+        //Show Page_01
+        private void btnToPage01_Click(object sender, RoutedEventArgs e)
+        {
+            frMain.Content = new Page_01();
+        }
+        //Show Page_02
+        private void btnToPage02_Click(object sender, RoutedEventArgs e)
+        {
+            frMain.Content = new Page_02();
+        }
     }
 }

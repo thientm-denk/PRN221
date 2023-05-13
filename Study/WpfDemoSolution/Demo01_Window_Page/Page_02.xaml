@@ -1,0 +1,15 @@
+﻿<Page x:Class="Demo01_Window_Page.Page_02"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Demo01_Window_Page"
+      mc:Ignorable="d" Height="323" Width="500"
+      Title="Page 02: .NET Programming">
+    <Grid Background="PaleTurquoise">
+        <TextBlock TextAlignment="Center" Width="362"
+                   FontSize="24" FontWeight="Bold" 
+                   Text=".NET Programming" Foreground="ForestGreen"
+                   Margin="69,130,69,151"/>
+    </Grid>
+</Page>

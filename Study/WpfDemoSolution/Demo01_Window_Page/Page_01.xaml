@@ -1,0 +1,16 @@
+﻿<Page x:Class="Demo01_Window_Page.Page_01"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Demo01_Window_Page"
+      mc:Ignorable="d" Width="500"
+      Title="Page 01: Welcome to WPF" Height="323">
+
+    <Grid Background="LightGreen">
+        <TextBlock TextAlignment="Center"  Width="362"
+                   FontSize="24" FontWeight="Bold" Foreground="Red"
+                   Text="Welcome to WPF"
+                   Margin="69,130,69,151"/>
+    </Grid>
+</Page>

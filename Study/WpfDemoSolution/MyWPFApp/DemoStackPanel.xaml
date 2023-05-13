@@ -1,0 +1,23 @@
+﻿<Window x:Class="MyWPFApp.DemoStackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWPFApp"
+        mc:Ignorable="d"
+        Title="StackPanel Demo" Height="270" Width="400">
+    <Grid>
+        <StackPanel Background="LightBlue"  Orientation ="Vertical">
+            <Label Name="lblInstruction"
+                   FontSize="15" Content="Enter Car Information"/>
+            <Label Name="lblCarName" Content="Car Name"/>
+            <TextBox Name="txtCarName"  Height="25"/>
+            <Label Name="lblColor" Content="Color"/>
+            <TextBox Name="txtColor"  Height="25"/>
+            <Label Name="lblBrand" Content="Brand"/>
+            <TextBox Name="txtBrand" Height="25"/>
+            <Button Name="btnDisplay" Width="80" 
+                    Margin="0,10,0,0" Content="Display"/>
+        </StackPanel>
+    </Grid>
+</Window>

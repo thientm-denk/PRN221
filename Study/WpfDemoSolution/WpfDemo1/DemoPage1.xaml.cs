@@ -16,20 +16,18 @@ using System.Windows.Shapes;
 namespace WpfDemo1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DemoPage1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DemoPage1 : Page
     {
-        public MainWindow()
+        public DemoPage1()
         {
             InitializeComponent();
         }
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            TextBox1.Text = "hihi do ngok";
+            TextBox1.Text = "Tran Thien";
         }
-
-        
     }
 }

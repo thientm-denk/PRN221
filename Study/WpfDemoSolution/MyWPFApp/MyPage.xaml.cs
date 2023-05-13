@@ -13,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfDemo1
+namespace MyWPFApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MyPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MyPage : Page
     {
-        public MainWindow()
+        public MyPage()
         {
             InitializeComponent();
         }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-            TextBox1.Text = "hihi do ngok";
-        }
-
-        
     }
 }
