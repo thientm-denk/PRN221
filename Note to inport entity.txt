@@ -1,0 +1,9 @@
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.7
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.7
+OR
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.0-preview.7.20365.15
+
+dotnet ef dbcontext scaffold "server =(local); database = MyStore;uid=sa;pwd=123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+dotnet ef dbcontext scaffold "server =(local); database = FUFlowerBouquetManagement;uid=sa;pwd=123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
