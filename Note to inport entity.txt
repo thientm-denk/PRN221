@@ -1,4 +1,4 @@
-dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.0
 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.7
 OR
@@ -7,3 +7,24 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.0-previ
 dotnet ef dbcontext scaffold "server =(local); database = MyStore;uid=sa;pwd=123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
 
 dotnet ef dbcontext scaffold "server =(local); database = FUFlowerBouquetManagement;uid=sa;pwd=123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+// SIngleton
+	private static CustomerDAO instance = null;
+        private static object instanceLook = new object();
+
+        public static CustomerDAO Instance
+        {
+            get
+            {
+                lock (instanceLook)
+                {
+                    if (instance == null)
+                    {
+                        instance = new CustomerDAO();
+                    }
+                    return instance;
+                }
+            }
+        }
+
+// Connect Json
