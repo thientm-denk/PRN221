@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContactList>
+	<Contact Id="001">
+		<ContactName >Maria Anders</ContactName>
+		<Company>Alfreds Futterkiste</Company>
+		<Phone>030-0074321</Phone>
+	</Contact>
+	<Contact Id="002">
+		<ContactName >Thomas Hardy</ContactName>
+		<Company>Around  &amp; The Horn</Company>
+		<Phone>(171) 555-7788</Phone>
+	</Contact>
+	<Contact Id="003">
+		<ContactName >Elizabeth Lincoln</ContactName>
+		<Company>Bottom-Dollar &amp; Markets</Company>
+		<Phone>(604) 555-4729</Phone>
+	</Contact>
+</ContactList>
