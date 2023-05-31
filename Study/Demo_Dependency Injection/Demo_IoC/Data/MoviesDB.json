@@ -1,0 +1,14 @@
+﻿[
+   {
+      "ID": "1",
+      "Title": "Jurassic Park",
+      "OscarNominations": "3",
+      "OscarWins": "3"
+   },
+   {
+      "ID": "2",
+      "Title": "Spider-Man",
+      "OscarNominations": "2",
+      "OscarWins": "0"
+   }  
+]

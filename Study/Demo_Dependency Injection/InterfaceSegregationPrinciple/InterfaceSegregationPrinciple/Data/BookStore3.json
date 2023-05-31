@@ -1,0 +1,16 @@
+﻿[
+  {
+    "Title": "HTML 5 Game Development",
+    "Author": "Daniel Albu",
+    "Price": 5.68,
+    "Topic": "HTML5 Games",
+    "Duration": "2h20m"
+  },
+  {
+    "Title": "Advanced JavaScript Development",
+    "Author": "Marco Covarrubias",
+    "Price": 5.68,
+    "Topic": "JavaScript",
+    "Duration": "3h11m"
+  }  
+]

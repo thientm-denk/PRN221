@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Title": "Mastering C# and .NET Programming",
+    "Author": "Marino Posadas",
+    "Price": 45.99
+  },
+  {
+    "Title": "F# 4.0 Programmning Cookbook",
+    "Author": "Kevin Ashton",
+    "Price": 31.71
+  } 
+]

@@ -1,0 +1,12 @@
+[  
+  {
+    "Title": "Learning Node.js for .NET Developers",
+    "Author": "Harry Cummings",
+    "Price": 29.99
+  },
+  {
+    "Title": "ASP.NET Core and Angular 2",
+    "Author": "V. De Sanctis",
+    "Price": 39.92
+  }
+]
